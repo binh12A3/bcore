@@ -3,20 +3,15 @@ core functionalities such as logger, ....
 
 
 ```
-/home/btnguyen/Code/btest
-├── bcore
-|   └── logger
-|       ├── logger.cpp
-|       └── logger.h
-└── btest.cpp
-```
-
-
-```cpp
 [btnguyen@hpserver btest]$ ls -ltr
 total 4
 drwxr-xr-x. 3 root     root      20 Sep 21 09:39 bcore
 -rw-rw-r--. 1 btnguyen btnguyen 378 Sep 21 15:08 btest.cpp
+[btnguyen@hpserver btest]$
+```
+
+
+```cpp
 [btnguyen@hpserver btest]$ cat btest.cpp
 #include "bcore/logger/logger.h"
 
