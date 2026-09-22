@@ -22,6 +22,12 @@ int main()
     Logger::ref().log("Hello World");
     Logger::ref().log(8080, Logger::ll_info);
     Logger::ref().log(0.1234, Logger::ll_debug);
+    Logger::ref().log( string("x=")
+					   .append(to_string(123))
+					   .append(", y=")
+					   .append(to_string(1.23))
+					   , Logger::ll_debug
+					 );
     Logger::ref().closeLogFile();
     return 0;
 }
