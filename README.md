@@ -27,9 +27,9 @@ int main()
 }
 [btnguyen@hpserver btest]$ g++ -Wall -o btest btest.cpp bcore/logger/logger.cpp
 [btnguyen@hpserver btest]$ ./btest
-[21/09/2026 15:09:11] [INFO ] [702096|----] Hello World
-[21/09/2026 15:09:11] [INFO ] [702096|----] 8080
-[21/09/2026 15:09:11] [DEBUG] [702096|----] 0.1234
+[21/09/2026 15:09:11] [INFO ] [702096] Hello World
+[21/09/2026 15:09:11] [INFO ] [702096] 8080
+[21/09/2026 15:09:11] [DEBUG] [702096] 0.1234
 [btnguyen@hpserver btest]$ ls -ltr
 total 40
 drwxr-xr-x. 3 root     root        20 Sep 21 09:39 bcore
@@ -37,8 +37,8 @@ drwxr-xr-x. 3 root     root        20 Sep 21 09:39 bcore
 -rwxrwxr-x. 1 btnguyen btnguyen 31008 Sep 21 15:09 btest
 -rw-rw-r--. 1 btnguyen btnguyen   156 Sep 21 15:09 app.log
 [btnguyen@hpserver btest]$ cat app.log
-[21/09/2026 15:09:11] [INFO ] [702096|----] Hello World
-[21/09/2026 15:09:11] [INFO ] [702096|----] 8080
-[21/09/2026 15:09:11] [DEBUG] [702096|----] 0.1234
+[21/09/2026 15:09:11] [INFO ] [702096] Hello World
+[21/09/2026 15:09:11] [INFO ] [702096] 8080
+[21/09/2026 15:09:11] [DEBUG] [702096] 0.1234
 [btnguyen@hpserver btest]$ 
 ```
