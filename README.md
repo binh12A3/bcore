@@ -18,8 +18,7 @@ drwxr-xr-x. 3 root     root      20 Sep 21 09:39 bcore
 int main()
 {
     Logger::ref().openLogFile("app.log");
-    //Logger::ref().setThreadNameForLogging("LOOP");
-    //Logger::ref().enableThreadId(true);
+    //Logger::ref().setThreadNameForLogging("LOOP", true);
     Logger::ref().log("Hello World");
     Logger::ref().log(8080, Logger::ll_info);
     Logger::ref().log(0.1234, Logger::ll_debug);
